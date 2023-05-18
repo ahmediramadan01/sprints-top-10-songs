@@ -66,10 +66,10 @@ button {
   margin: 16px 0;
   padding: 20px 30px;
   border: none;
+  cursor: pointer;
 }
 
 button:hover {
-  cursor: pointer;
   background-color: #532a7f;
   color: #efefef;
   border: 1px solid #efefef;
