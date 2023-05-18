@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
 </head>
 
 <body>
@@ -26,7 +27,7 @@
         Euismod lacinia at quis risus sed. Tristique et egestas quis ipsum. Malesuada fames ac turpis egestas maecenas.
         Nisi porta lorem mollis aliquam ut porttitor leo a. Nisl rhoncus mattis rhoncus urna.</p>
 
-    <div class="songs-list">
+    <div id="songs-list">
         <ul>
             <li><span>#1</span> Time to Pretend</li>
             <li><span>#2</span> O-o-oh Child</li>
@@ -43,7 +44,7 @@
         </ul>
     </div>
 
-    <button>Show me!</button>
+    <button id="toggleButton" onclick="toggleList()">Show me!</button>
 </body>
 
 </html>

@@ -40,7 +40,7 @@ p {
   letter-spacing: 0.02cm;
 }
 
-div.songs-list {
+#songs-list {
   display: none;
 }
 
